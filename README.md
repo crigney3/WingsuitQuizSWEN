@@ -1,5 +1,5 @@
 # WingsuitQuizSWEN
-@author: Aaron Jiang
-@author:
-@author:
-@author:
+@author: Aaron Jiang<br />
+@author: <br />
+@author: <br />
+@author: <br />
