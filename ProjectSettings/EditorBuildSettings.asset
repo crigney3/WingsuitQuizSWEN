@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 845d78fa46f8ad644a206abf76023856
+  - enabled: 1
+    path: Assets/Scenes/MapSelection.unity
+    guid: 38b411b581144d3448a98cb3e713c8f1
+  - enabled: 1
+    path: Assets/Scenes/QuizSelect.unity
+    guid: 08496582c3f24dc4f8eb48bbb1fc0c3f
+  - enabled: 1
+    path: Assets/Scenes/Exit Game.unity
+    guid: 5bfaf529b8f0fe04d9c37081b8759471
   m_configObjects: {}
