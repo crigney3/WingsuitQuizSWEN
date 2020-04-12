@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class TriggerScript : MonoBehaviour
 {
+    public GameObject gameManager;
+    GameManagerScript gm;
+    public bool correct;
+    public int questionNum;
     // Start is called before the first frame update
     void Start()
     {
-        
+        gm = gameManager.GetComponent<GameManagerScript>();
     }
 
     // Update is called once per frame
@@ -18,6 +22,14 @@ public class TriggerScript : MonoBehaviour
 
     void OnTriggerEnter(Collider c)
     {
-        Debug.Log("a");
+        if (correct)
+        {
+            Debug.Log(questionNum);
+            gm.setQuestion(questionNum, true);
+        }
+        else
+        {
+            Debug.Log("Incorrect");
+        }
     }
 }

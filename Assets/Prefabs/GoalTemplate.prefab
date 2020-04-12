@@ -106,6 +106,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 490f980e90a31884f8c9f2c42ec7fca7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 2441800112581469423, guid: 2f1a080c7b9514c4f9cf18fa8b9223c3,
+    type: 3}
+  correct: 0
+  questionNum: 0
 --- !u!1 &756915783360270632
 GameObject:
   m_ObjectHideFlags: 0
