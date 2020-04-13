@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManagerScript : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class GameManagerScript : MonoBehaviour
     public int numQuestions;
     public bool[] questions;
     public GameObject questionObject;
+    public GameObject feedbackWindow;
+    public Text txt;
     // Start is called before the first frame update
     void Start()
     {

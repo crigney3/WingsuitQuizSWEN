@@ -15,7 +15,7 @@ public class CloseUIScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
         }
     }
 }
