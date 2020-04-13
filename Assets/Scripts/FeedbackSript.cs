@@ -1,16 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class FeedbackSript : MonoBehaviour
 {
     public GameObject feedbackWindow;
-    public Text Text;
 
-    public void OnCollisionEnter(Collision collision, string info)
+    public void OnCollisionEnter(Collision collision)
     {
         feedbackWindow.SetActive(true);
-        Text.text = info;
     }
 }
