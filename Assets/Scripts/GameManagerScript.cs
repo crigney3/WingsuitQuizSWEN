@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -11,7 +12,10 @@ public class GameManagerScript : MonoBehaviour
     public bool[] questions;
     public GameObject questionObject;
     public GameObject feedbackWindow;
-    public Text txt;
+    public GameObject finalFeedback;
+    public Text feedBackTxt;
+    public Text finalCorrectTxt;
+    public Text finalWrongTxt;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,5 +46,25 @@ public class GameManagerScript : MonoBehaviour
     public bool getQuestion(int index)
     {      
         return questions[index];
+    }
+
+    public string getCorrect()
+    {
+        int count = 0;
+        for(int i = 0; i < questions.Length; i++)
+        {
+            if (questions[i]) count++;
+        }
+        return count.ToString();
+    }
+
+    public string getWrong()
+    {
+        int count = 0;
+        for (int i = 0; i < questions.Length; i++)
+        {
+            if (!questions[i]) count++;
+        }
+        return count.ToString();
     }
 }

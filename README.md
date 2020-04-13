@@ -1,5 +1,5 @@
 # WingsuitQuizSWEN
 @author: Aaron Jiang<br />
 @author: Marcus Chung<br />
-@author: <br />
-@author: <br />
+@author: Corey Rigney<br />
+@author: Derek Brower<br />

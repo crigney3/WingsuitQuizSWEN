@@ -15,7 +15,7 @@ public class TriggerScript : MonoBehaviour
     void Start()
     {
         gm = gameManager.GetComponent<GameManagerScript>();
-        txt = gm.txt;
+        txt = gm.feedBackTxt;
         feedbackWindow = gm.feedbackWindow;
     }
 
