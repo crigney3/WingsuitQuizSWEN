@@ -17,7 +17,7 @@ public class QuestionGenerator : MonoBehaviour
     void Start()
     {
         GameObject gm = GameObject.Find("GameManager");
-        Vector3 initPos = player.transform.position + new Vector3(0, -10, 20);
+        Vector3 initPos = player.transform.position + new Vector3(-4, -10, 25);
         int i = 0;
         for(i = 0; i < questionAmount; i++)
         {
